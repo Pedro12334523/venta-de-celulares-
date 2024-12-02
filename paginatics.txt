@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Celulares</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #66CDAA;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .contenido {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .bloque {
+            flex: 1;
+            padding: 10px;
+            border: 2px solid #ddd;
+            background-color: #f4f4f4;
+            max-width: 30%;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+        .bloque img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            margin: 5px 0;
+        }
+
+        .promo {
+            background-color: #FFD700;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .bloque h2, footer h2 {
+            color: #333;
+        }
+
+        .precio {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ff6347;
+        }
+
+        .btn-compra {
+            background-color: #66CDAA;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .btn-compra:hover {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Venta de Celulares</h1>
+    <p><b>Encuentra los mejores celulares a los precios más bajos</b></p>
+    <img src="logo_tienda.jpg" alt="Logo de la tienda" width="100" height="100">
+</header>
+
+<!-- Sección de promociones -->
+<div class="promo">
+    <h2>¡Ofertas Especiales! Descuentos hasta del 30%</h2>
+    <p>Solo por tiempo limitado. ¡No te lo pierdas!</p>
+</div>
+
+<!-- Productos -->
+<div class="contenido">
+    <div class="bloque">
+        <center>
+            <h2>Samsung Galaxy S23</h2>
+            <img src="samsung_s23.jpg" alt="Samsung Galaxy S23" width="200" height="200">
+            <p class="precio">$18,999</p>
+            <a href="#" class="btn-compra">Comprar ahora</a>
+        </center>
+    </div>
+
+    <div class="bloque">
+        <center>
+            <h2>iPhone 14 Pro Max</h2>
+            <img src="iphone_14_pro_max.jpg" alt="iPhone 14 Pro Max" width="200" height="200">
+            <p class="precio">$24,999</p>
+            <a href="#" class="btn-compra">Comprar ahora</a>
+        </center>
+    </div>
+
+    <div class="bloque">
+        <center>
+            <h2>Xiaomi Mi 11</h2>
+            <img src="xiaomi_mi_11.jpg" alt="Xiaomi Mi 11" width="200" height="200">
+            <p class="precio">$9,499</p>
+            <a href="#" class="btn-compra">Comprar ahora</a>
+        </center>
+    </div>
+</div>
+
+<!-- Sección de beneficios y características -->
+<div class="contenido">
+    <div class="bloque">
+        <h2>Beneficios al comprar con nosotros</h2>
+        <ul>
+            <li><i>Envíos rápidos a todo el país.</i></li>
+            <li><i>Garantía de 1 año en todos los productos.</i></li>
+            <li><i>Soporte técnico 24/7.</i></li>
+            <li><i>Pagos seguros con tarjeta de crédito.</i></li>
+        </ul>
+    </div>
+
+    <div class="bloque">
+        <h2>Sobre Nosotros</h2>
+        <p><i>Somos una tienda en línea especializada en la venta de celulares de las mejores marcas como Samsung, Apple, Xiaomi, entre otras. Ofrecemos productos originales y a los mejores precios del mercado.</i></p>
+    </div>
+
+    <div class="bloque">
+        <h2>¿Por qué elegirnos?</h2>
+        <p><i>Nos enfocamos en la satisfacción total de nuestros clientes. Con una excelente atención al cliente, precios competitivos y productos de alta calidad, somos la opción preferida de muchos compradores.</i></p>
+    </div>
+</div>
+
+<!-- Información de contacto -->
+<footer>
+    <h2>Información de Contacto</h2>
+    <p>Para más información sobre nuestros productos y servicios, contáctanos:</p>
+    <ul>
+        <li>Teléfono: (222) 555-1234</li>
+        <li>Correo electrónico: ventas@celularesstore.com</li>
+        <li>Dirección: Calle Ficticia 123, Ciudad de México</li>
+    </ul>
+</footer>
+
+</body>
+</html>
